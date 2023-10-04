@@ -1,0 +1,183 @@
+body {
+  min-width: 900px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  line-height: 1;
+  background-color: #333;
+}
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.first {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 15px #7a956b;
+  padding: 30px 30px;
+}
+.form * {
+  outline: none;
+}
+.form_title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+  text-align: center;
+  color: #7a956b;
+}
+.form_item {
+  margin: 0 40px 20px 0px;
+}
+.loading_img {
+  padding: 0 30%;
+  max-width: 40%;
+  /*opacity: 0;
+    visibility: hidden;*/
+}
+.form_input {
+  font-size: 16px;
+  height: 50px;
+  padding: 0 20px;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.5s ease 0s;
+}
+.form_input:focus {
+  box-shadow: 0 0 15px #7a956b;
+}
+.form_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 60px;
+  font-size: 18px;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #7a956b;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #161b13;
+  transition: background-color 0.5s ease 0s;
+  position: relative;
+  top: 0;
+}
+.form_button:hover {
+  background-color: #4f6146;
+}
+.form_button:active {
+  top: 3px;
+  box-shadow: 0 2px #161b13;
+}
+input:focus {
+  background-position: 0 0;
+}
+.form_input._error {
+  border: 4px solid rgb(208, 2, 2);
+}
+.form_input._valid {
+  border: 4px solid #42b704;
+}
+
+.information {
+  padding: 20% 0 0 0;
+  width: 40%;
+}
+.information_title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.private {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #7a956b;
+}
+.information_title._title {
+  opacity: 1;
+  visibility: visible;
+}
+.pib_information {
+  opacity: 0;
+  visibility: hidden;
+}
+.pib_information._pib {
+  opacity: 1;
+  visibility: visible;
+}
+.information_block {
+  text-align: left;
+}
+.number_information {
+  opacity: 0;
+  visibility: hidden;
+}
+._number {
+  opacity: 1;
+  visibility: visible;
+}
+.id_information {
+  opacity: 0;
+  visibility: hidden;
+}
+._id {
+  opacity: 1;
+  visibility: visible;
+}
+.birthday_information {
+  opacity: 0;
+  visibility: hidden;
+}
+._birthday {
+  opacity: 1;
+  visibility: visible;
+}
+.faculty_information {
+  opacity: 0;
+  visibility: hidden;
+}
+._faculty {
+  opacity: 1;
+  visibility: visible;
+}
+._span {
+  font-weight: normal;
+  color: #ffffff;
+}
+/*--------------*/
+.second {
+  color: #fff;
+  box-shadow: 0 0 15px #7a956b;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table_block {
+  padding: 15px 0 0 0;
+}
+.table {
+  border: 1px solid white;
+  text-align: center;
+}
+.trow {
+  border: 1px solid white;
+}
+.tcol {
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+}
+.input_color {
+  width: 650px;
+  height: 30px;
+}

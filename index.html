@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=900px">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="first">
+            <div class="form">
+                <form action="#" id="form" class="form_body">
+                    <h1 class="form_title">Форма для заповнення</h1>
+                    <div class="form_item">
+                        <input id="formName" placeholder="ПІБ" type="text" class="form_input _req _pib" name="name">
+                    </div>
+                    <div class="form_item">
+                        <input id="formNumber" placeholder="Телефон" type="text" class="form_input _req _number" name="number">
+                    </div>
+                    <div class="form_item">
+                        <input id="formID" placeholder="Номер ID-картки" type="text" class="form_input _req _id" name="ID">
+                    </div>
+                    <div class="form_item">
+                        <input id="formFaculty" placeholder="Факультет" type="text" class="form_input _req _faculty" name="faculty">
+                    </div>
+                    <div class="form_item">
+                        <input id="formBirthday" type="date" class="form_input _req _birthday" name="birthday" autocomplete="on">
+                    </div>
+                    <button type="submit" class="form_button">Надіслати</button>
+                </form>
+            </div>
+            <div class="information">
+                <img src="img/loading.png" alt="" class="loading_img">
+                <h2 class="information_title">Введені дані</h2>
+                <div class="information_block">
+                    <div class="private pib_information">ПІБ: <span class="pib_span _span"></span></div>
+                    <div class="private number_information">Номер телефону: <span class="number_span _span"></span></div>
+                    <div class="private id_information">ID-картка: <span class="id_span _span"></span></div>
+                    <div class="private birthday_information">Дата народження: <span class="birthday_span _span"></span></div>
+                    <div class="private faculty_information">Факультет: <span class="faculty_span _span"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <input type="color" class="input_color">
+            <div class="table_block">
+                <table class="table">
+                    <tr class="trow">
+                        <td class="tcol">1</td>
+                        <td class="tcol dblclick">2</td>
+                        <td class="tcol">3</td>
+                        <td class="tcol dblclick">4</td>
+                        <td class="tcol">5</td>
+                        <td class="tcol dblclick">6</td>
+                    </tr class="trow">
+                    <tr>
+                        <td class="tcol">7</td>
+                        <td class="tcol dblclick">8</td>
+                        <td class="tcol">9</td>
+                        <td class="tcol dblclick">10</td>
+                        <td class="tcol">11</td>
+                        <td class="tcol dblclick">12</td>
+                    </tr>
+                    <tr class="trow">
+                        <td class="tcol">13</td>
+                        <td class="tcol dblclick">14</td>
+                        <td class="tcol">15</td>
+                        <td class="tcol dblclick">16</td>
+                        <td class="tcol">17</td>
+                        <td class="tcol myvariant dblclick">18</td>
+                    </tr>
+                    <tr class="trow">
+                        <td class="tcol">19</td>
+                        <td class="tcol dblclick">20</td>
+                        <td class="tcol">21</td>
+                        <td class="tcol dblclick">22</td>
+                        <td class="tcol">23</td>
+                        <td class="tcol dblclick">24</td>
+                    </tr>
+                    <tr class="trow">
+                        <td class="tcol">25</td>
+                        <td class="tcol dblclick">26</td>
+                        <td class="tcol">27</td>
+                        <td class="tcol dblclick">28</td>
+                        <td class="tcol">29</td>
+                        <td class="tcol dblclick">30</td>
+                    </tr>
+                    <tr class="trow">
+                        <td class="tcol">31</td>
+                        <td class="tcol dblclick">32</td>
+                        <td class="tcol">33</td>
+                        <td class="tcol dblclick">34</td>
+                        <td class="tcol">35</td>
+                        <td class="tcol dblclick">36</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
